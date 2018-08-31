@@ -18,6 +18,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.tam.gesturekhoapham.MainActivity" >
+        </activity>
+        <activity android:name="com.example.tam.gesturekhoapham.GestureMoveImage" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

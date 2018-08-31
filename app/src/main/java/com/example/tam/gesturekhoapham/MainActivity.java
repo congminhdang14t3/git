@@ -5,9 +5,14 @@ import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AbsListView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     ImageView image;
@@ -17,10 +22,17 @@ public class MainActivity extends AppCompatActivity {
     int khoangcach=100;
     int vantoc = 100;
     GestureDetector gestureDetector;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        GestureImage();
+
+    }
+
+    private void GestureImage(){
         image = findViewById(R.id.image);
         image.setImageResource(hinhanh[0]);
         text = findViewById(R.id.text);
@@ -33,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     class Mygeture extends GestureDetector.SimpleOnGestureListener{
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
