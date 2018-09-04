@@ -56,6 +56,10 @@
         "source": "C:\\Users\\tam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\953f00d6226d7c8703cec9435b006aea\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\tam\\Desktop\\git\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_shake.xml.flat",
+        "source": "C:\\Users\\tam\\Desktop\\git\\app\\src\\main\\res\\layout\\activity_shake.xml"
+    },
+    {
         "merged": "C:\\Users\\tam\\Desktop\\git\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
         "source": "C:\\Users\\tam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\953f00d6226d7c8703cec9435b006aea\\res\\drawable\\abc_vector_test.xml"
     },
@@ -1442,6 +1446,10 @@
     {
         "merged": "C:\\Users\\tam\\Desktop\\git\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\tam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\953f00d6226d7c8703cec9435b006aea\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\tam\\Desktop\\git\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scale_image.xml.flat",
+        "source": "C:\\Users\\tam\\Desktop\\git\\app\\src\\main\\res\\layout\\activity_scale_image.xml"
     },
     {
         "merged": "C:\\Users\\tam\\Desktop\\git\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",

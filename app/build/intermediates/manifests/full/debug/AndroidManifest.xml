@@ -8,6 +8,10 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="27" />
 
+    <uses-feature
+        android:name="android.hardware.sensor.accelermeter"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -17,9 +21,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.tam.gesturekhoapham.MainActivity" >
+        <activity android:name="com.example.tam.gesturekhoapham.MainActivity" />
+        <activity android:name="com.example.tam.gesturekhoapham.GestureMoveImage" />
+        <activity android:name="com.example.tam.gesturekhoapham.ScaleImage" >
         </activity>
-        <activity android:name="com.example.tam.gesturekhoapham.GestureMoveImage" >
+        <activity android:name="com.example.tam.gesturekhoapham.ShakeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
